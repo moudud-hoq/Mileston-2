@@ -1,0 +1,14 @@
+.container {
+    display: grid;
+    /* grid-template-columns: 200px 150px 100px 50px; এভাবেও করা যায় */
+    /* grid-template-columns: repeat(1, 200px 150px 100px 50px); এভাবেও করাআ যায়*/
+    /* grid-template-columns: repeat(3, 2fr) 1fr; */
+    /* grid-template-columns: 100px auto 100px 100px; */
+    /* justify-content: default start/center/end/space-around/space-between/space-evenly/; পুরো কনটেইনারকে মাঝখানে নিয়ে নেবে */
+
+}
+
+.item {
+    border: 1px solid red;
+    text-align: center;
+}

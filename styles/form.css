@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    border: 1px solid red;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.left-nav a {
+    padding: 10px;
+}
+
+
+/* Amra Evabew DIPLAY:BLOCK diyew korte pari */
+/* input {
+    display: block; এভাবেও ডিসপ্লে টাকে ব্লক করে একটা এক্সিস বরাবর নেওয়া যায়
+} */
+
+/* Abar Evabew kora jay */
+.login-form-container{
+    border: 1px solid slateblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.login-form {
+    border: 1px solid red;
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 0 auto; এভাবেও সেন্টারে আনা যায় */
+}
+
+.login-form input {
+    margin-top: 20px;
+}
